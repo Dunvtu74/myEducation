@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>вход</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #111;
+      font-family: sans-serif;
+    }
+    .box {
+      background: #1a1a1a;
+      padding: 40px 36px;
+      border-radius: 10px;
+      width: 340px;
+      border: 1px solid #2a2a2a;
+    }
+    h2 { color: #fff; font-size: 1.3rem; margin-bottom: 28px; }
+    label { display: block; color: #888; font-size: 0.8rem; margin-bottom: 6px; }
+    input {
+      width: 100%;
+      padding: 10px 14px;
+      background: #111;
+      border: 1px solid #333;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 0.95rem;
+      margin-bottom: 18px;
+      outline: none;
+    }
+    input:focus { border-color: #555; }
+    button {
+      width: 100%;
+      padding: 11px;
+      background: #fff;
+      color: #111;
+      border: none;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    button:hover { background: #ddd; }
+    .hint { color: #555; font-size: 0.78rem; text-align: center; margin-top: 16px; }
+    .hint a { color: #888; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h2>вход</h2>
+    <label>email</label>
+    <input type="email" placeholder="you@example.com">
+    <label>пароль</label>
+    <input type="password" placeholder="••••••••">
+    <button>войти</button>
+    <p class="hint">нет аккаунта? <a href="#">зарегистрируйся</a></p>
+  </div>
+</body>
+</html>
