@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>profile card</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #f0f0f0;
+      font-family: sans-serif;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 40px 32px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: #222;
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 2rem;
+    }
+    h2 { font-size: 1.2rem; margin-bottom: 4px; }
+    .role { color: #888; font-size: 0.9rem; margin-bottom: 20px; }
+    .tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 20px; }
+    .tag {
+      background: #f4f4f4;
+      border-radius: 20px;
+      padding: 4px 12px;
+      font-size: 0.8rem;
+      color: #444;
+    }
+    .links { display: flex; gap: 12px; justify-content: center; }
+    .links a {
+      color: #222;
+      text-decoration: none;
+      font-size: 0.85rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 1px;
+    }
+    .links a:hover { border-color: #222; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">D</div>
+    <h2>Dunvtu</h2>
+    <div class="role">Python / JS developer</div>
+    <div class="tags">
+      <span class="tag">Python</span>
+      <span class="tag">FastAPI</span>
+      <span class="tag">aiogram</span>
+      <span class="tag">JavaScript</span>
+      <span class="tag">C++</span>
+    </div>
+    <div class="links">
+      <a href="https://github.com/Dunvtu74">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
