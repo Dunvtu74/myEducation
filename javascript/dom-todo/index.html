@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>todo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: sans-serif; max-width: 480px; margin: 60px auto; padding: 0 16px; }
+    h1 { font-size: 1.4rem; margin-bottom: 20px; }
+    .input-row { display: flex; gap: 8px; margin-bottom: 24px; }
+    input { flex: 1; padding: 8px 12px; border: 1px solid #ccc; border-radius: 4px; font-size: 1rem; }
+    button { padding: 8px 16px; background: #222; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #444; }
+    ul { list-style: none; }
+    li { display: flex; align-items: center; gap: 10px; padding: 10px 0; border-bottom: 1px solid #eee; }
+    li.done span { text-decoration: line-through; color: #999; }
+    li span { flex: 1; cursor: pointer; }
+    .del { background: none; color: #aaa; font-size: 1rem; padding: 0 4px; }
+    .del:hover { color: #e00; background: none; }
+  </style>
+</head>
+<body>
+  <h1>todo</h1>
+  <div class="input-row">
+    <input id="inp" type="text" placeholder="new task">
+    <button onclick="addTask()">add</button>
+  </div>
+  <ul id="list"></ul>
+
+  <script>
+    const inp = document.getElementById("inp");
+    const list = document.getElementById("list");
+
+    let tasks = JSON.parse(localStorage.getItem("tasks") || "[]");
+
+    function save() {
+      localStorage.setItem("tasks", JSON.stringify(tasks));
+    }
+
+    function render() {
+      list.innerHTML = "";
+      tasks.forEach((task, i) => {
+        const li = document.createElement("li");
+        if (task.done) li.classList.add("done");
+
+        const span = document.createElement("span");
+        span.textContent = task.text;
+        span.onclick = () => { tasks[i].done = !tasks[i].done; save(); render(); };
+
+        const del = document.createElement("button");
+        del.className = "del";
+        del.textContent = "x";
+        del.onclick = () => { tasks.splice(i, 1); save(); render(); };
+
+        li.append(span, del);
+        list.append(li);
+      });
+    }
+
+    function addTask() {
+      const text = inp.value.trim();
+      if (!text) return;
+      tasks.push({ text, done: false });
+      inp.value = "";
+      save();
+      render();
+    }
+
+    inp.addEventListener("keydown", (e) => { if (e.key === "Enter") addTask(); });
+
+    render();
+  </script>
+</body>
+</html>
