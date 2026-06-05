@@ -1,30 +1,52 @@
 # myEducation
 
-A collection of projects and exercises from learning programming. Covers Python, JavaScript, C++, and HTML/CSS.
+учусь программировать. здесь складываю всё что делаю по ходу — задания с курсов, свои скрипты, мелкие проекты.
 
-## Structure
+стек который знаю на данный момент: Python, JavaScript, C++, HTML/CSS. из интересного — FastAPI, aiogram, немного Kali Linux.
 
-```
-python/
-  fastapi-notes/     REST API for notes (FastAPI + Pydantic)
-  telegram-bot/      Telegram bot with note saving (aiogram 3)
-  scripts/           CLI utilities: file organizer, weather
+---
 
-javascript/
-  async-fetch/       Fetching API data with async/await, no deps
-  dom-todo/          Todo app with localStorage, plain JS
+## что тут есть
 
-html-css/
-  profile-card/      Developer profile card, no frameworks
+**python/**
+- `fastapi-notes` — REST API для заметок, мой первый нормальный бэкенд
+- `telegram-bot` — бот на aiogram, умеет сохранять заметки
+- `csv-analyzer` — читает CSV и считает статистику, без pandas
+- `oop-shapes` — фигуры с наследованием, задание с курса
+- `binary-search` — бинарный поиск с подсчётом шагов
+- `two-sum` — первая задача с leetcode, решил через хэш-таблицу
+- `caesar-cipher` — шифр Цезаря
+- `sieve` — решето Эратосфена
+- `fib-fast` — числа Фибоначчи без рекурсии
+- `word-counter` — топ слов в тексте
+- `scripts` — утилиты: раскладывает файлы по папкам, погода в терминале
 
-cpp/
-  sorting/           Bubble, selection, merge sort with benchmark
-  linked-list/       Singly linked list from scratch
+**javascript/**
+- `dom-todo` — todo с localStorage, чистый JS без фреймворков
+- `async-fetch` — работа с API через async/await
+- `oop-bank` — банковский счёт на классах
+- `array-drills` — задания на массивы
+- `palindrome-check` — палиндром
+- `fizzbuzz` — да, и это тоже есть
+- `debounce` / `throttle` — написал сам, без lodash
+- `deep-clone` — глубокое копирование объекта
 
-projects/
-  url-shortener/     URL shortener API (FastAPI)
-```
+**cpp/**
+- `sorting` — три алгоритма сортировки с замером времени
+- `linked-list` — односвязный список с нуля
+- `stack-brackets` — проверка скобок
+- `matrix-mul` — умножение матриц
+- `string-tricks` — базовые операции со строками
+- `guess-number` — угадай число, первая игра на C++
 
-## Stack
+**html-css/**
+- `profile-card` — карточка разработчика
+- `login-form` — форма входа
+- `card-grid` — адаптивная сетка на CSS Grid
 
-Python, FastAPI, aiogram, JavaScript, C++, HTML, CSS
+**projects/**
+- `url-shortener` — сокращатель ссылок с кастомными алиасами
+
+---
+
+всё ещё учусь, репозиторий пополняется.
