@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>карточки</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: sans-serif; background: #f5f5f5; padding: 32px 16px; }
+    h1 { font-size: 1.2rem; margin-bottom: 24px; color: #222; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: transform 0.15s;
+    }
+    .card:hover { transform: translateY(-3px); }
+
+    .card-img {
+      height: 140px;
+      background: #ddd;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+    }
+    .card-body { padding: 16px; }
+    .card-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 6px; }
+    .card-text { font-size: 0.82rem; color: #777; line-height: 1.5; }
+    .card-tag {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 2px 10px;
+      background: #f0f0f0;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>проекты</h1>
+  <div class="grid">
+    <div class="card">
+      <div class="card-img">🐍</div>
+      <div class="card-body">
+        <div class="card-title">FastAPI notes</div>
+        <div class="card-text">REST API для заметок. CRUD, Pydantic, in-memory storage.</div>
+        <span class="card-tag">Python</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">🤖</div>
+      <div class="card-body">
+        <div class="card-title">Telegram bot</div>
+        <div class="card-text">Бот для заметок на aiogram 3. Команды, хэндлеры, FSM.</div>
+        <span class="card-tag">aiogram</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">⚡</div>
+      <div class="card-body">
+        <div class="card-title">URL shortener</div>
+        <div class="card-text">Сокращатель ссылок с кастомными алиасами на FastAPI.</div>
+        <span class="card-tag">FastAPI</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-img">🔧</div>
+      <div class="card-body">
+        <div class="card-title">File organizer</div>
+        <div class="card-text">Скрипт который раскладывает файлы по папкам по типу.</div>
+        <span class="card-tag">Python</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
