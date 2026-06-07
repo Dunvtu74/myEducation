@@ -5,7 +5,7 @@ from parser_kwork import fetch_kwork
 from parser_fl import fetch_fl
 from storage import load_seen, save_seen
 
-INTERVAL = 300  # секунд между обновлениями
+INTERVAL = 60  # секунд между обновлениями
 
 RED    = "\033[31m"
 GREEN  = "\033[32m"
