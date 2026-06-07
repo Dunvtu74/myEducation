@@ -3,3 +3,5 @@ javascript
 бот
 парсер
 fastapi
+скрипт
+script
