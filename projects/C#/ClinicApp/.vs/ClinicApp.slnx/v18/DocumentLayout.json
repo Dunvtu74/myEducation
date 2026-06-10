@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\forms\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\forms\\patientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PatientForm.cs",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PatientForm.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Forms\\PatientForm.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PatientForm.cs",
+              "RelativeToolTip": "ClinicApp\\Forms\\PatientForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:28:42.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Form1.cs",
+              "RelativeToolTip": "ClinicApp\\Form1.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAA6wJ0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:27:11.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Program.cs",
+              "RelativeToolTip": "ClinicApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:20:44.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Database\\Database.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Database\\Database.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Database\\Database.cs",
+              "RelativeToolTip": "ClinicApp\\Database\\Database.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:20:10.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Models\\Patient.cs",
+              "RelativeToolTip": "ClinicApp\\Models\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:18:55.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Form1.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Form1.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ClinicApp\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T23:14:34.279Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
