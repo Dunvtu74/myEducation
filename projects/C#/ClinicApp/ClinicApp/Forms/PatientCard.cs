@@ -16,6 +16,30 @@ namespace ClinicApp.Forms
             SetupUI();
             LoadAppointments();
         }
+        private void LoadDispensary(ListView list)
+        {
+            list.Items.Clear();
+            using var conn = DB.GetConnection();
+            conn.Open();
+            var cmd = conn.CreateCommand();
+            cmd.CommandText = @"
+        SELECT Id, Date, Type, Result, NextDate
+        FROM Dispensary
+        WHERE PatientId = @pid
+        ORDER BY Date DESC
+    ";
+            cmd.Parameters.AddWithValue("@pid", patient.Id);
+            using var reader = cmd.ExecuteReader();
+            while (reader.Read())
+            {
+                var item = new ListViewItem(reader["Date"]?.ToString() ?? "");
+                item.SubItems.Add(reader["Type"]?.ToString() ?? "");
+                item.SubItems.Add(reader["Result"]?.ToString() ?? "");
+                item.SubItems.Add(reader["NextDate"]?.ToString() ?? "");
+                item.Tag = reader["Id"];
+                list.Items.Add(item);
+            }
+        }
 
         private void SetupUI()
         {
@@ -115,13 +139,60 @@ namespace ClinicApp.Forms
 
             // --- вкладка 3: диспансеризация ---
             var tabDisp = new TabPage("Диспансеризация");
-            var dispLabel = new Label();
-            dispLabel.Text = "В разработке";
-            dispLabel.Dock = DockStyle.Fill;
-            dispLabel.TextAlign = ContentAlignment.MiddleCenter;
-            dispLabel.ForeColor = Color.Gray;
-            tabDisp.Controls.Add(dispLabel);
+            var dispPanel = new Panel();
+            dispPanel.Dock = DockStyle.Fill;
 
+            var dispList = new ListView();
+            dispList.Dock = DockStyle.Fill;
+            dispList.View = View.Details;
+            dispList.FullRowSelect = true;
+            dispList.GridLines = true;
+            dispList.Columns.Add("Дата", 100);
+            dispList.Columns.Add("Вид", 200);
+            dispList.Columns.Add("Результат", 250);
+            dispList.Columns.Add("Следующая", 120);
+            dispList.Tag = "dispList";
+
+            var dispButtons = new Panel();
+            dispButtons.Dock = DockStyle.Bottom;
+            dispButtons.Height = 45;
+            dispButtons.Padding = new Padding(8, 6, 8, 6);
+
+            var btnAddDisp = new Button();
+            btnAddDisp.Text = "Добавить";
+            btnAddDisp.Size = new Size(110, 32);
+            btnAddDisp.Click += (s, e) =>
+            {
+                var form = new DispensaryForm(patient.Id);
+                if (form.ShowDialog() == DialogResult.OK)
+                    LoadDispensary(dispList);
+            };
+
+            var btnDelDisp = new Button();
+            btnDelDisp.Text = "Удалить";
+            btnDelDisp.Size = new Size(100, 32);
+            btnDelDisp.Location = new Point(120, 0);
+            btnDelDisp.Click += (s, e) =>
+            {
+                if (dispList.SelectedItems.Count == 0) return;
+                var result = MessageBox.Show("Удалить запись?", "Подтверждение",
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if (result != DialogResult.Yes) return;
+                var id = (long)dispList.SelectedItems[0].Tag;
+                using var conn = DB.GetConnection();
+                conn.Open();
+                var cmd = conn.CreateCommand();
+                cmd.CommandText = "DELETE FROM Dispensary WHERE Id = @id";
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+                LoadDispensary(dispList);
+            };
+
+            dispButtons.Controls.Add(btnAddDisp);
+            dispButtons.Controls.Add(btnDelDisp);
+            dispPanel.Controls.Add(dispList);
+            dispPanel.Controls.Add(dispButtons);
+            tabDisp.Controls.Add(dispPanel);
             tabs.TabPages.Add(tabInfo);
             tabs.TabPages.Add(tabAppt);
             tabs.TabPages.Add(tabDisp);

@@ -61,6 +61,17 @@ namespace ClinicApp.Database
                     Notes TEXT,
                     FOREIGN KEY (AppointmentId) REFERENCES Appointments(Id)
                 );
+                
+                CREATE TABLE IF NOT EXISTS Dispensary (
+                    Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    PatientId INTEGER NOT NULL,
+                    Date TEXT NOT NULL,
+                    Type TEXT,
+                    Result TEXT,
+                    NextDate TEXT,
+                    Notes TEXT,
+                    FOREIGN KEY (PatientId) REFERENCES Patients(Id)
+                );
             ";
             cmd.ExecuteNonQuery();
         }

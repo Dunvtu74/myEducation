@@ -92,8 +92,10 @@ namespace ClinicApp
             cmd.CommandText = @"
                 SELECT Id, LastName, FirstName, MiddleName, BirthDate, Phone, Policy, Address
                 FROM Patients
-                WHERE LastName LIKE @search OR FirstName LIKE @search 
-                   OR MiddleName LIKE @search OR Phone LIKE @search
+                WHERE LOWER(LastName) LIKE LOWER(@search) 
+                OR LOWER(FirstName) LIKE LOWER(@search)
+                OR LOWER(MiddleName) LIKE LOWER(@search) 
+                OR Phone LIKE @search
                 ORDER BY LastName, FirstName
             ";
             cmd.Parameters.AddWithValue("@search", $"%{search}%");
@@ -126,9 +128,8 @@ namespace ClinicApp
             var patient = GetPatientById(id);
             if (patient == null) return;
 
-            var form = new PatientForm(patient);
-            if (form.ShowDialog() == DialogResult.OK)
-                LoadPatients(searchBox.Text);
+            var card = new PatientCard(patient);
+            card.ShowDialog();
         }
 
         private Patient GetPatientById(long id)
