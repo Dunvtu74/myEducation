@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\forms\\prescriptionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\forms\\prescriptionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\forms\\appointmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\forms\\appointmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\forms\\patientcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\forms\\patientcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\database\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|c:\\users\\albert\\source\\repos\\clinicapp\\clinicapp\\forms\\appointmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02E65CDE-FFDE-1621-C8D4-FA83E6B33FC5}|ClinicApp\\ClinicApp.csproj|solutionrelative:clinicapp\\forms\\appointmentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6685A354-3396-4FAD-AEA4-C70AB326FC4D}|ClinicApp\\ClinicApp.csproj|C:\\Users\\Albert\\source\\repos\\ClinicApp\\clinicapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -46,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "PrescriptionForm.cs",
+              "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PrescriptionForm.cs",
+              "RelativeDocumentMoniker": "ClinicApp\\Forms\\PrescriptionForm.cs",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PrescriptionForm.cs*",
+              "RelativeToolTip": "ClinicApp\\Forms\\PrescriptionForm.cs*",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAQwG0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T06:33:32.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DispensaryForm.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\DispensaryForm.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Forms\\DispensaryForm.cs",
@@ -67,32 +84,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PatientCard.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PatientCard.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Forms\\PatientCard.cs",
-              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PatientCard.cs*",
-              "RelativeToolTip": "ClinicApp\\Forms\\PatientCard.cs*",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAQwMYAAAAkAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PatientCard.cs",
+              "RelativeToolTip": "ClinicApp\\Forms\\PatientCard.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAQwLkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-10T23:45:04.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AppointmentForm.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\AppointmentForm.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Forms\\AppointmentForm.cs",
-              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\AppointmentForm.cs",
-              "RelativeToolTip": "ClinicApp\\Forms\\AppointmentForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\AppointmentForm.cs*",
+              "RelativeToolTip": "ClinicApp\\Forms\\AppointmentForm.cs*",
+              "ViewState": "AgIAALAAAAAAAAAAAAAIwAwBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T23:43:58.168Z"
+              "WhenOpened": "2026-06-10T23:43:58.168Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PatientForm.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Forms\\PatientForm.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Forms\\PatientForm.cs",
@@ -104,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Form1.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Form1.cs",
@@ -117,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Program.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Program.cs",
@@ -129,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Database.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Database\\Database.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Database\\Database.cs",
@@ -142,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Models\\Patient.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Models\\Patient.cs",
@@ -154,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Albert\\source\\repos\\ClinicApp\\ClinicApp\\Form1.cs",
               "RelativeDocumentMoniker": "ClinicApp\\Form1.cs",

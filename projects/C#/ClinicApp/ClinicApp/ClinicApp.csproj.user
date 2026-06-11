@@ -16,5 +16,8 @@
     <Compile Update="Forms\PatientForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\PrescriptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
