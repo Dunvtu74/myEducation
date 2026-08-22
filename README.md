@@ -65,3 +65,8 @@ P.S. оригинальную версию ghidra/IdaPro и других про�
 ---
 
 всё ещё учусь, репозиторий пополняется.
+## Cup of cofee USDT
+0xf6a2abc725384fccc538c30491c7451b947aad24 - ERC20
+TSeQ51LKSwuxVZ5qvJyN5H5jC4j6NPHByz - TRC20
+0xf6a2abc725384fccc538c30491c7451b947aad24 - BEP20
+
