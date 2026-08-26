@@ -8,6 +8,8 @@ https://mambetov-albert.netlify.app
 
 <img width="1617" height="477" alt="image" src="https://github.com/user-attachments/assets/60f9ab63-6406-4996-afab-f7d77dad8dd0" />
 https://opentip.kaspersky.com/DBDD09C9F0F19A1373AEE1FC5187DC816210B8C94A8D61E4680DD945C32BC16D/results?tab=upload
+
+
 P.S. оригинальную версию ghidra/IdaPro и других программ на пк ищите здесь https://github.com/Dunvtu74/myEducation/releases
 
 # myEducation
